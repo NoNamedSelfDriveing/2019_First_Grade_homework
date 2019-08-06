@@ -16,7 +16,7 @@ int main(){
 		PORTE=nPin<<i; // nPin  한 칸씩 시프트 하여 0000 0010 0000 0100 ''' 이렇게 다음 LED가 켜지도록 반복한다.
 		_delay_ms(1000); 
 		PORTE=0x00;
-		
+		i++;
 		
 
 	}
