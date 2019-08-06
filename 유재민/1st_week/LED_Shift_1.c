@@ -17,6 +17,7 @@ int main(){
 		_delay_ms(1000); 
 		PORTE=0x00;
 		
+		
 
 	}
 	return 0;
