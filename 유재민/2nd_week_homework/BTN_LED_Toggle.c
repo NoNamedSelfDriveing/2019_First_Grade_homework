@@ -1,7 +1,7 @@
 /*
  * NoNamed_Vacation_Homework_YJM.c
  *
- * Created: 2019-08-06 ©юхд 6:04:50
+ * Created: 2019-08-06 Л≤╓М⌡└ 6:04:50
  * Author : user
  */ 
 
@@ -10,15 +10,15 @@
 #include <avr/io.h>
 #include <util/delay.h>
 int main(){
-	DDRE= 0xFF; // ╦П╣Г гию╩ цБ╥б╩Себ╥н юЭх╞
-	DDRD= 0x00; // ╦П╣Г гию╩ ют╥б╩Себ╥н юЭх╞
+	DDRE= 0xFF; // К╙╗К⌠═ М∙─Л²└ Л╤°К═╔Л┐│М┐°К║° Л═└М≥≤
+	DDRD= 0x00; // К╙╗К⌠═ М∙─Л²└ Л·┘К═╔Л┐│М┐°К║° Л═└М≥≤
 	PORTE=0x00;
 	while (1)
 	{	
-			if(PIND==0x00){
+			if(PIND==0x00){        //К╡└М┼╪Л²└ К┬└К╔╪ Л▀°
 				
-				PORTE=~PORTE;
-				while(PIND==0x00){
+				PORTE=~PORTE; // ledК╔╪ М┌╢, М∙° К╡┬ К█■ К┬└К╔╢К╘╢ К│■
+				while(PIND==0x00){    //К╡└М┼╪Л²└ К≈└ К∙▄Й╧▄Л╖─ whileК╛╦ Л∙┬Л≈░ Й╟─К▒═
 				}
 		}
 		
